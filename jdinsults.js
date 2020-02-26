@@ -1,7 +1,9 @@
 const { insults } = require("./Api/insults");
 
-module.exports = function insults() {
-    const insult = insults[Math.floor(Math.floor() * insults.length)];
-
+Insults = () => {
+    const insult = insults[Math.floor(Math.random* insults.length)];
+    
     return insult;
 }
+
+module.exports.Insults = Insults
